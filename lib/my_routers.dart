@@ -68,7 +68,7 @@ import 'pages/forgot_password_email.dart';
 import 'pages/privacy_policy_hamburger.dart';
 import 'pages/reset_password_student.dart';
 import 'pages/settings_languages.dart';
-import 'pages/student_Advisor.dart';
+import 'pages/student_advisor.dart';
 import 'pages/student_answersheet.dart';
 import 'pages/student_assessment_start.dart';
 import 'pages/forgot_password.dart';
@@ -575,6 +575,7 @@ class MyRoutes{
         return SlideRightRoute(widget: CloneAddQuestion(),settings: settings);
       }
       case '/publishedAssessment':{
+        
         return SlideRightRoute(widget: PublishedAssessment(),settings: settings);
       }
       case '/draftAddQuestion':{
